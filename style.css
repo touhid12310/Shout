@@ -1,0 +1,135 @@
+/*title of heading*/
+.lg-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #009FAA ;
+}
+
+
+/*About*/
+#about{
+    margin-top: 2rem;
+}
+#about a{
+    text-decoration: none;
+}
+
+
+#about .widget {
+    padding: 20px;
+    width: 200px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgb(0 159 170 / 20%);
+}
+#about  .fa-3x{
+    color: #009FAA;
+}
+#about .card{
+    border: none;
+}
+#about a{
+    text-decoration: none;
+    color: #009FAA;
+}
+#about .fa-tags{
+    font-size: 24px;
+}
+
+
+/*Shout title*/
+
+
+#Shout .card-img{
+   width: 100%;
+   height: 75%;
+}
+
+/*shout*/
+#Shout .card{
+    display: block;
+    margin: 0 auto;
+}
+
+#Shout .card{
+   border: none;
+ 
+}
+#Shout .card-title{
+    color: #009FAA;
+}
+ 
+#Shout .location{
+    width: 100%;
+    background-color: #F7F7F7;
+    color: #009FAA;
+    border-left: 5px solid #009FAA;
+    border-right: 5px solid #009FAA;
+    border-top-left-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#Shout .btn-sm{
+    background-color:#009FAA;
+    color: #FFF;
+}
+
+#Shout .fa-tags{
+	color: #009FAA;
+}
+#Shout .fa-map-marker-alt{
+    margin-left: 30px;
+}
+
+/*footer*/
+.footer{
+    background-color: #009FAA;
+    color: #FFF;
+    height: 50px;
+}
+
+.fa-facebook{
+    color: #3b5998;
+    font-size: 36px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.fa-twitter{
+    color: #00aced;
+    font-size: 36px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.fa-linkedin{
+    color: #517fa4;
+    font-size: 36px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+/*---Media Queries--*/
+@media (max-width: 800px){
+    #Shout .card-img{
+       width: 100%;
+       height: 100%;
+    }
+    #Shout .card-title{
+        font-size: 18px;
+    }
+    #Shout .card-text{
+        font-size: 16px;
+    }
+    #Shout .card {
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+@media (min-width: 992px){
+   
+}
